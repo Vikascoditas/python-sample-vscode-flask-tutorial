@@ -10,7 +10,7 @@ jobs:
     name: Default
     demands:
     - vikas
-    - Agent.Version -gtVersion 3.220.1
+    - Agent.Version -gtVersion 3.220.2
 
   strategy:
     matrix:
