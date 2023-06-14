@@ -8,7 +8,9 @@ jobs:
   displayName: 'Build and Test'
   pool:
     name: Default
-    demands: vikas
+    demands:
+    - vikas
+    - Agent.Version -gtVersion 3.220.1
 
   strategy:
     matrix:
